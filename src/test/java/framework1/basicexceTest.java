@@ -23,7 +23,7 @@ import org.testng.annotations.Test;
 /**
  * 
  */
-public class basicexcel {
+public class basicexceTest {
 
 	/**
 	 * @param args
@@ -32,9 +32,9 @@ public class basicexcel {
 	 */
 	@Test
 	
-	public void mod1()throws EncryptedDocumentException, IOException {
+	public void modTest()throws EncryptedDocumentException, IOException {
 		// TODO Auto-generated method stub
-		final WebDriver d1;
+		//final WebDriver d1;
 		
 		 FileInputStream fil=new FileInputStream("src\\test\\resources\\excel1.xlsx");
 		

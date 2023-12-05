@@ -13,16 +13,19 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 /**
  * 
  */
-public class basic {
+public class basicTest {
 
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args)throws IOException, InterruptedException {
+	@Test
+	
+	public void demoTest()throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
 		final WebDriver d1;
 		FileInputStream fis=new FileInputStream("src\\test\\resources\\data.properties.txt");
